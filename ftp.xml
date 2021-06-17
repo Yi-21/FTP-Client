@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding='utf-8'?>
+<ROOT>
+
+	<!-- ftp服务配置 -->
+	<Server host="9.135.152.132" user="myftp" passwd="1234911fly"/>
+	
+	<!-- 日志配置 -->
+	<Log LogPath = "" LogPrefix = "" LogLevelRun = "" RunLogSizeM=""/>
+	
+	<!-- 上传文件配置 -->
+	<Files>
+		<File src ="../test" dst =""/>
+		<File src ="../tes" dst =""/>
+	</Files>
+
+</ROOT>
